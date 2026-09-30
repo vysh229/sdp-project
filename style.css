@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7ff;
+    color: #333;
+}
+
+header {
+    background-color: #6c5ce7;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #6c5ce7;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #6c5ce7;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px 25px;
+    border: none;
+    background-color: #6c5ce7;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.projects {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.projects h2 {
+    font-size: 32px;
+    color: #6c5ce7;
+    margin-bottom: 10px;
+}
+
+.projects > p {
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 280px;
+    padding: 25px;
+    background-color: #f5f7ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #6c5ce7;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.project-card button {
+    margin-top: 5px;
+}
+.categories {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f7ff;
+}
+
+.categories h2 {
+    font-size: 32px;
+    color: #6c5ce7;
+    margin-bottom: 10px;
+}
+
+.categories > p {
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.category-card {
+    width: 250px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.category-card h3 {
+    color: #6c5ce7;
+    margin-bottom: 12px;
+}
+
+.category-card p {
+    line-height: 1.5;
+}
+.team {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.team h2 {
+    font-size: 32px;
+    color: #6c5ce7;
+    margin-bottom: 10px;
+}
+
+.team > p {
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    width: 230px;
+    padding: 30px 20px;
+    background-color: #f5f7ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.team-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    color: #6c5ce7;
+    margin-bottom: 8px;
+}
+
+.team-card p {
+    color: #555;
+}
+.gallery {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f7ff;
+}
+
+.gallery h2 {
+    font-size: 32px;
+    color: #6c5ce7;
+    margin-bottom: 10px;
+}
+
+.gallery > p {
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.gallery-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery-card h3 {
+    padding: 15px;
+    color: #6c5ce7;
+}
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #6c5ce7;
+    margin-bottom: 10px;
+}
+
+.contact > p {
+    margin-bottom: 35px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    text-align: left;
+    width: 300px;
+}
+
+.contact-info h3 {
+    color: #6c5ce7;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 12px 0;
+}
+
+form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+form button {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #6c5ce7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.project-card,
+.category-card,
+.team-card,
+.gallery-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover,
+.category-card:hover,
+.team-card:hover,
+.gallery-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5747c9;
+    transform: scale(1.05);
+}
+
+nav a {
+    transition: 0.3s;
+}
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+
+    .project-card,
+    .category-card,
+    .team-card,
+    .gallery-card {
+        width: 90%;
+    }
+
+    .contact-info,
+    form {
+        width: 90%;
+    }
+
+}
+.project-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
